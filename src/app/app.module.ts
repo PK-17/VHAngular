@@ -13,6 +13,9 @@ import { ViewClientsComponent } from './view-clients/view-clients.component';
 import { ViewApplicantsComponent } from './view-applicants/view-applicants.component';
 import { ViewRejectedComponent } from './view-rejected/view-rejected.component';
 import { ApplicationDetailedComponent } from './application-detailed/application-detailed.component';
+import { LoanSuccessComponent } from './loan-success/loan-success.component';
+import { LoanStatusCheckComponent } from './loan-status-check/loan-status-check.component';
+import { UserDashboardComponent } from './user-dashboard/user-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +26,9 @@ import { ApplicationDetailedComponent } from './application-detailed/application
     ViewApplicantsComponent,
     ViewRejectedComponent,
     ApplicationDetailedComponent,
+    LoanSuccessComponent,
+    LoanStatusCheckComponent,
+    UserDashboardComponent,
   ],
   imports: [
     BrowserModule,
